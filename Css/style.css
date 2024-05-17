@@ -1139,6 +1139,17 @@ section{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    .footer-top-elems ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-top-elems ul li{
+        min-width: 170px;
+        margin-top: 10px;
+    }
+    .footer-top-line{
+        margin-top: 10px;
+    }
 }
 
 /* Media Query end */
