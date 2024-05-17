@@ -1151,5 +1151,13 @@ section{
         margin-top: 10px;
     }
 }
+@media (max-width: 1000px){
+    .hero-right{
+        padding: 0;
+    }
+    .hero-point{
+        width: 100%;
+    }
+}
 
 /* Media Query end */
