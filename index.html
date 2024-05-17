@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paddy Compare assignment</title>
+    <!-- Links start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="./Css/style.css">
+    <!-- Links end -->
+</head>
+<body>
+    <div class="wrap">
+    <!-- header start -->
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="inner-nav">
+                    <div class="nav">
+                        <div class="in-left">
+                            <div class="inl-img">
+                                <img src="./Images/Logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="in-right">
+                            <div class="inr-wrap">
+                                <div class="inr-list">
+                                    <ul>
+                                        <li>
+                                            <div class="nav-item">
+                                                <a href="#!">Mototring</a>
+                                                <div class="nav-drop">
+                                                    <div class="inner-nav-dropdown">
+                                                        <div class="nav-dropdown-right">
+                                                            <div class="nav-dropdown-right-head">
+                                                                <h3>GUIDES</h3>
+                                                            </div>
+                                                            <div class="nav-dropdown-right-text">
+                                                                <ul>
+                                                                    <li>Over 50's Life Insurance</li>
+                                                                    <li>Critical Illness</li>
+                                                                    <li>Home Insurance Calculator</li>
+                                                                    <li>Policy Types</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="nav-dropdown-left">
+                                                            <div class="nav-dropdown-left-list">
+                                                                <ul>
+                                                                    <li>Motorbike Insurance</li>
+                                                                    <li>Car Insurance</li>
+                                                                    <li>Classic Car Insurance</li>
+                                                                    <li>Taxi Insurance</li>
+                                                                    <li>Van Insurance</li>
+                                                                    <li>Truck Insurance</li>
+                                                                    <li>Motor Trade Insurance</li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="nav-dropdown-left-list">
+                                                                <ul>
+                                                                    <li>Import Car Insurance</li>
+                                                                    <li>Motor Fleet Insurance</li>
+                                                                    <li>Convicted Driver Insurance</li>
+                                                                    <li>Minibus Insurance</li>
+                                                                    <li>Horsebox Insurance</li>
+                                                                    <li>Young Driver Insurance</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#!">Home</a></li>
+                                        <li><a href="#!">Life</a></li>
+                                        <li><a href="#!">Business</a></li>
+                                        <li><a href="#!">Travel</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav-srch">
+                                    <div class="ns-img" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#navModal">
+                                        <img src="./Images/Nav-img.svg" alt="">
+                                    </div> 
+                                    <!-- MODAL  -->                                        
+                                        <div class="modal fade" id="navModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Search Here</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="bds-wrap">
+                                                    <div class="modal-body bd-srch">
+                                                        <input type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    <!-- MODAL  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="res-nav">
+                        <img src="./Images/burger-menu.svg" alt="">
+                        <div class="rn-nav">
+                            <div class="rnn-wrap">
+                                <div class="rn-item">
+                                    <ul>
+                                        <li>
+                                            <a href="#!">Motoring</a>
+                                            <div class="nav-drop">
+                                                <div class="inner-nav-dropdown">
+                                                    <div class="nav-dropdown-right">
+                                                        <div class="nav-dropdown-right-head">
+                                                            <h3>GUIDES</h3>
+                                                        </div>
+                                                        <div class="nav-dropdown-right-text">
+                                                            <ul>
+                                                                <li>Over 50's Life Insurance</li>
+                                                                <li>Critical Illness</li>
+                                                                <li>Home Insurance Calculator</li>
+                                                                <li>Policy Types</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nav-dropdown-left">
+                                                        <div class="nav-dropdown-left-list">
+                                                            <ul>
+                                                                <li>Motorbike Insurance</li>
+                                                                <li>Car Insurance</li>
+                                                                <li>Classic Car Insurance</li>
+                                                                <li>Taxi Insurance</li>
+                                                                <li>Van Insurance</li>
+                                                                <li>Truck Insurance</li>
+                                                                <li>Motor Trade Insurance</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="nav-dropdown-left-list">
+                                                            <ul>
+                                                                <li>Import Car Insurance</li>
+                                                                <li>Motor Fleet Insurance</li>
+                                                                <li>Convicted Driver Insurance</li>
+                                                                <li>Minibus Insurance</li>
+                                                                <li>Horsebox Insurance</li>
+                                                                <li>Young Driver Insurance</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#!">Home</a></li>
+                                        <li><a href="#!">Life</a></li>
+                                        <li><a href="#!">Business</a></li>
+                                        <li><a href="#!">Travel</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- wrapper start -->
+    <wrapper >
+        <!-- section 1 start -->
+        <section>
+            <div class="hero-wrapper">
+                <div class="container">
+                    <div class="inner-hero-wrapper">
+                        <div class="hero-left">
+                            <div class="hero-head-wrapper" data-aos="fade-right">
+                                <div class="hero-head-title">
+                                    <h1>It’s always the right time to get an Insurance</h1>
+                                </div>
+                                <div class="hero-head-text">
+                                    <p>Insurance is protecting them. Get quick and cheap insurance quotes from leading insurance providers.</p>
+                                </div>
+                                <div class="hero-points">
+                                    <div class="hero-point">
+                                        <div class="point-img green">
+                                            <img src="./Images/checked.svg" alt="">
+                                        </div>
+                                        <div class="point-text green">
+                                            <p>50+ insurers with lowest prices</p>
+                                        </div>
+                                    </div>
+                                    <div class="hero-point">
+                                        <div class="point-img orange">
+                                            <img src="./Images/checked 2.svg" alt="">
+                                        </div>
+                                        <div class="point-text orange">
+                                            <p>Quick, easy and hassle  free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-btn">
+                                    <a href="">Get Quotes</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-right" data-aos="fade-left">
+                            <div class="hr-wrap">
+                                <div class="hero-right-img">
+                                    <img src="./Images/hero-img.svg" alt="">
+                                </div>   
+                                <div class="hero-bg"></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 1 end -->
+
+        <!-- section 2 start -->
+        <section>
+            <div class="sec2-wrapper">
+                <div class="container">
+                    <div class="inner-sec2-wrapper">
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img1.svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Car Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(2-5).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Home Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left" >
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img3.svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Travel Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(4-6).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Health Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(2-5).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Home Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(4-6).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Health Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(7-9).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Business Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img8.svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Life Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left">
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img(7-9).svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>Business Insurance</p>
+                            </div>
+                        </div>
+                        <div class="sec2-elem" data-aos="flip-left" >
+                            <div class="sec2-elem-img">
+                                <img src="./Images/New folder/img10.svg" alt="">
+                            </div>
+                            <div class="sec2-elem-text">
+                                <p>View All </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 2 end -->
+
+        <!-- section 3 start -->
+        <section>
+            <div class="sec3-wrapper">
+                <div class="container">
+                    <div class="inner-sec3-wrapper">
+                        <div class="sec3-head" data-aos="zoom-out">
+                            <div class="sec3-head-title">
+                                <h3>How does it work?</h3>
+                            </div>
+                            <div class="sec3-head-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus</p>
+                            </div>
+                        </div>
+                        <div class="sec3-body"> 
+                            <div class="sec3-point" data-aos="fade-up" data-aos-anchor-placement="top-center" >
+                                <div class="sec3-point-top">
+                                    <h1>01</h1>
+                                </div>
+                                <div class="sec3-point-hr"></div>
+                                <div class="sec3-point-bottom">
+                                    <div class="sec3-point-text">
+                                        <h5>Select a product</h5>
+                                    </div> 
+                                    <div class="sec3-point-line">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec3-point" data-aos="fade-up" data-aos-anchor-placement="top-center" >
+                                <div class="sec3-point-top">
+                                    <h1>02</h1>
+                                </div>
+                                <div class="sec3-point-hr"></div>
+                                    <div class="sec3-point-bottom">
+                                        <div class="sec3-point-text">
+                                            <h5>Submit the form</h5>
+                                        </div> 
+                                        <div class="sec3-point-line">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="sec3-point" data-aos="fade-up" data-aos-anchor-placement="top-center" >
+                                <div class="sec3-point-top">
+                                    <h1>03</h1>
+                                </div>
+                               <div class="sec3-point-hr"></div>
+                                    <div class="sec3-point-bottom">
+                                        <div class="sec3-point-text">
+                                            <h5>Choose from quotes</h5>
+                                        </div> 
+                                        <div class="sec3-point-line">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="sec3-point" data-aos="fade-up" data-aos-anchor-placement="top-center" >
+                                <div class="sec3-point-top">
+                                    <h1>04</h1>
+                                </div>
+                                <div class="sec3-point-hr"></div>
+                                    <div class="sec3-point-bottom">
+                                        <div class="sec3-point-text">
+                                            <h5>Get insured</h5>
+                                        </div> 
+                                        <div class="#6C6C6C">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                                        </div>
+                                    </div>    
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 3 end -->
+
+        <!-- section 4 start -->
+        <section>
+            <div class="sec4-wrapper">
+                <div class="sec4">
+                <div class="sec4-wrapper-img" data-aos="zoom-in-left">
+                    <img src="./Images/man.svg" alt="">
+                </div>
+                    <div class="container">
+                    <div class="inner-sec4-container">
+                        <div class="sec4-head">
+                            <div class="sec4-head-tilte">
+                                <h2>Paddy Compare Commitment</h2>
+                            </div>
+                            <div class="sec4-head-text">
+                                <p>We promise lorem ipsum dolor sit amet, consellur vit seni sit amet, consellur vit seni.</p>
+                            </div>
+                        </div>
+                        <div class="sec4-points">
+                            <div class="sec4-point">
+                                <div class="sec4-point-img">
+                                    <img src="./Images/checked 3.svg" alt="">
+                                </div>
+                                <div class="sec4-point-text">
+                                    <p>Quick and best quotes </p>
+                                </div>
+                            </div>
+                            <div class="sec4-point">
+                                <div class="sec4-point-img">
+                                    <img src="./Images/checked 3.svg" alt="">
+                                </div>
+                                <div class="sec4-point-text">
+                                    <p>Customer first attitude</p>
+                                </div>
+                            </div>
+                            <div class="sec4-point">
+                                <div class="sec4-point-img">
+                                    <img src="./Images/checked 3.svg" alt="">
+                                </div>
+                                <div class="sec4-point-text">
+                                    <p>Strong privacy terms</p>
+                                </div>
+                            </div>
+                            <div class="sec4-point">
+                                <div class="sec4-point-img">
+                                    <img src="./Images/checked 3.svg" alt="">
+                                </div>
+                                <div class="sec4-point-text">
+                                    <p>Relentless support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 4 end -->
+
+        <!-- section 5 start -->
+        <section>
+            <div class="sec5-wrapper">
+                <div class="container">
+                    <div class="inner-sec5-wrapper">
+                        <div class="sec5-right" data-aos="zoom-out-right">
+                            <div class="sec5-right-title">
+                                <h2>Leading <span>Brokers</span> we work with</h2>
+                            </div>
+                            <div class="sec5-right-text">
+                                <p>Get quotes from leading insurers for your financial freedom</p>
+                            </div>
+                        </div>
+                        <div class="sec5-left">
+                            <div class="sec5-left-items" data-aos="flip-up">
+                                <img src="./Images/sec5(1-2).svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-up">
+                                <img src="./Images/sec5(1-2).svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-up">
+                                <img src="./Images/sec5 3.svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-up">
+                                <img src="./Images/sec5 4.svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-down">
+                                <img src="./Images/sec5(5-6).svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-down">
+                                <img src="./Images/sec5(5-6).svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-down">
+                                <img src="./Images/sec5 7.svg" alt="">
+                            </div>
+                            <div class="sec5-left-items" data-aos="flip-down">
+                                <img src="./Images/sec5 8.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 5 end -->
+
+        <!-- section 6 start -->
+        <section>
+            <div class="sec6-wrapper">
+                <div class="container">
+                    <div class="inner-sec6-wrapper">
+                        <div class="sec6-top" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-offset="0">
+                            <div class="sec6-top-title">
+                                <h3>How does getting an insurance help?</h3>
+                            </div>
+                        </div>
+                        <div class="sec6-bottom">
+                            <div class="sec6-bottom-elem" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back"
+                            data-aos-offset="0">
+                                <a href="#!">
+                                <div class="sec6-bottom-elem-wrap">
+                                    <div class="sec6-bottom-img">
+                                    <img src="./Images/sec6-img1.svg" alt="">
+                                    </div>
+                                    <div class="sec6-bottom-head">
+                                    <p>SAVE MONEY</p>
+                                    </div>
+                                    <div class="sec6-bottom-wrapper">
+                                    <div class="sec6-bottom-title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut ipsum lorem</h4>
+                                    </div>  
+                                    <div class="sec6-bottom-text">
+                                        <p>Insurance is protecting them. Get quick and cheap insurance quotes from leading insurance providers, consecullur advisior oreneur vit.</p>
+                                    </div> 
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            
+                            <div class="sec6-bottom-elem" data-aos="fade-zoom-in"
+                            data-aos-easing="ease-in-back"
+                            data-aos-offset="0">
+                                <a href="#!">
+                                <div class="sec6-bottom-elem-wrap">
+                                    <div class="sec6-bottom-img">
+                                    <img src="./Images/sec6-img2.svg" alt="">
+                                    </div>
+                                    <div class="sec6-bottom-head">
+                                    <p>SAVE TIME</p>
+                                    </div>
+                                    <div class="sec6-bottom-wrapper">
+                                    <div class="sec6-bottom-title">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut ipsum lorem</h4>
+                                    </div>  
+                                    <div class="sec6-bottom-text">
+                                        <p>Insurance is protecting them. Get quick and cheap insurance quotes from leading insurance providers, consecullur advisior oreneur vit.</p>
+                                    </div> 
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 6 end -->
+
+        <!-- section 7 start -->
+        <section>
+            <div class="sec7-wrapper">
+                <div class="container">
+                    <div class="inner-sec7-wrapper">
+                        <div class="sec7-top" >
+                            <div class="sec7-top-head" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0">
+                                <h3>Why choose Paddy Compare?</h3>
+                            </div>
+                        </div>
+                        <div class="sec7-bottom">
+                            <div class="sec7-bottom-elem" data-aos="fade-right" >
+                                <div class="sec7-bottom-img">
+                                    <img src="./Images/tap 1.svg" alt="">
+                                </div>
+                                <div class="sec7-bottom-title">
+                                    <h5>Easy Comparison</h5>
+                                </div>
+                                <div class="sec7-bottom-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                </div>
+                            </div>
+                            <div class="sec7-bottom-elem" data-aos="fade-up" >
+                                <div class="sec7-bottom-img">
+                                    <img src="./Images/calculator 1.svg" alt="">
+                                </div>
+                                <div class="sec7-bottom-title">
+                                    <h5>Instant Premium Calculator</h5>
+                                </div>
+                                <div class="sec7-bottom-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                </div>
+                            </div>
+                            <div class="sec7-bottom-elem" data-aos="fade-left">
+                                <div class="sec7-bottom-img">
+                                    <img src="./Images/shield-check 1.svg" alt="">
+                                </div>
+                                <div class="sec7-bottom-title">
+                                    <h5>Transparency</h5>
+                                </div>
+                                <div class="sec7-bottom-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 7 end -->
+
+        <!-- section 8 start -->
+        <section class="sec8">
+            <div class="sec8-wrapper">
+                <div class="container">
+                    <div class="inner-sec8-wrapper">
+                        <div class="sec8-right" data-aos="zoom-in-right">
+                            <div class="sec8-right-head">
+                                <div class="sec8-right-img">
+                                    <img src="./Images/stars.svg" alt="">
+                                </div>
+                                <div class="sec8-right-title">
+                                    <p>Rated  4.7/5 by our customers</p>
+                                </div>
+                                <div class="sec8-right-text">
+                                    <p>Based on 23,465 reviews</p>
+                                </div>
+                            </div>
+                            <div class="sec8-right-part"></div>
+                                
+                        </div>
+                        <div class="sec8-left" data-aos="fade-up">
+                            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                                <div class="splide__track">
+                                      <ul class="splide__list">
+                                          <li class="splide__slide">
+                                            <div class="sec8-crousel">
+                                                <div class="sec8-crousel-wrapper">
+                                                    <div class="sec8-crousel-qt">
+                                                        <img src="./Images/left-quote.svg" alt="">
+                                                    </div>
+                                                    <div class="sec8-crousel-text">
+                                                        <h5>Policy comparison with the help of visual charts on PaddyCompare turned out to be quite effective. The factors to compare were explicit on the charts, so it saved a lot of my time too.</h5>
+                                                    </div>
+                                                    <div class="sec8-crousel-name">
+                                                        <p><span>James Wolsh</span>, 31, Dublin</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </li>
+                                          <li class="splide__slide">
+                                            <div class="sec8-crousel">
+                                                <div class="sec8-crousel-wrapper">
+                                                    <div class="sec8-crousel-qt">
+                                                        <img src="./Images/left-quote.svg" alt="">
+                                                    </div>
+                                                    <div class="sec8-crousel-text">
+                                                        <h5>Policy comparison with the help of visual charts on PaddyCompare turned out to be quite effective. The factors to compare were explicit on the charts, so it saved a lot of my time too.</h5>
+                                                    </div>
+                                                    <div class="sec8-crousel-name">
+                                                        <p><span>James Wolsh</span>, 31, Dublin</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </li>
+                                          <li class="splide__slide">
+                                            <div class="sec8-crousel">
+                                                <div class="sec8-crousel-wrapper">
+                                                    <div class="sec8-crousel-qt">
+                                                        <img src="./Images/left-quote.svg" alt="">
+                                                    </div>
+                                                    <div class="sec8-crousel-text">
+                                                        <h5>Policy comparison with the help of visual charts on PaddyCompare turned out to be quite effective. The factors to compare were explicit on the charts, so it saved a lot of my time too.</h5>
+                                                    </div>
+                                                    <div class="sec8-crousel-name">
+                                                        <p><span>James Wolsh</span>, 31, Dublin</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </li>
+                                          
+                                      </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 8 end -->
+
+        <!-- section 9 end -->
+        <section>
+            <div class="sec9-wrapper">
+                <div class="container">
+                    <div class="inner-sec9-wrapper">
+                        <div class="sec9-top">
+                            <div class="sec9-top-title">
+                                <h3>Other products you can compare</h3>
+                            </div>
+                            <div class="sec9-top-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus</p>
+                            </div>
+                        </div>
+                        <div class="sec9-bottom">
+                            <div class="sec9-bottom-wrapper">
+                                <div class="sec9-bottom-col sec9-col1">
+                                    <h5>Motoring</h5>
+                                    <div class="sec9-bottom-col-points">
+                                        <p>Motorbike Insurance</p>
+                                        <p>Car Insurance</p>
+                                        <p>Taxi Insurance</p>
+                                        <p>Van Insurance</p>
+                                        <p>Truck Insurance</p>
+                                        <p>Motor Trade Insurance</p>
+                                        <p>Import Car Insurance</p>
+                                        <p>Motor Fleet Insurance</p>
+                                        <p>Convicted Driver Insurance</p>
+                                        <p>Minibus Insurance</p>
+                                        <p>Horsebox Insurance</p>
+                                        <p>Young Driver Insurance</p>
+                                    </div>
+                                </div>
+                                <div class="sec9-bottom-col sec9-col2">
+                                    <div class="sec9-col2-sub">
+                                        <h5>Home</h5>
+                                        <div class="sec9-bottom-col-points">
+                                            <p>Home Insurance</p>
+                                            <p>Landlord Insurance</p>
+                                            <p>Farm Insurance</p>
+                                            <p>Non-Standard Home Insurance</p>
+                                            <p>Log Cabin Insurance</p>
+                                        </div>
+                                    </div>
+                                    <div class="sec9-col2-sub">
+                                        <h5>Life</h5>
+                                        <div class="sec9-bottom-col-points">
+                                            <p>Life Insurance</p>
+                                            <p>Critical Illness Insurance</p>
+                                            <p>Income Protection Insurance</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sec9-bottom-col sec9-col3">
+                                    <h5>Business</h5>
+                                    <div class="sec9-bottom-col-points">
+                                        <p>Tradesman Insurance</p>
+                                        <p>Public Liability Insurance</p>
+                                        <p>Salon Insurance</p>
+                                        <p>Professional Indemnity Insurance</p>
+                                        <p>Pub Insurance</p>
+                                        <p>Catering Van</p>
+                                        <p>Shop Insurance</p>
+                                        <p>Office Insurance</p>
+                                        <p>Employers Liability Insurance</p>
+                                    </div>
+                                </div>
+                                <div class="sec9-bottom-col sec9-col4">
+                                    <h5>Travel</h5>
+                                    <div class="sec9-bottom-col-points">
+                                        <p>Caravan Insurance</p>
+                                        <p>Campervan Insurance</p>
+                                        <p>Static Caravan Insurance</p>
+                                        <p>Motorhome Insurance</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 9 end -->
+    </wrapper>
+    <!-- wrapper end -->
+
+    <!-- footer start -->
+    <footer >
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="inner-footer-wrapper">
+                    <div class="footer-top">
+                        <div class="footer-top-right">
+                            <div class="footer-top-img">
+                                <img src="./Images/footer logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-top-left">
+                            <div class="footer-top-elems">
+                                <ul>
+                                    <li>Insurer Information</li>
+                                    <li>Guides</li>
+                                    <li>Contact Us</li>
+                                    <li>Cookie Policy</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms & Conditions</li>
+                                </ul>
+                            </div>
+                            <div class="footer-top-line"></div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-text">
+                            <p>Paddy Compare Limited is a registered company in Northern Ireland. Company Number NI614718.
+                                Paddy Compare Limited is a registered data controller. ICO Registration Number Z3663827.</p>
+                        </div>
+                        <div class="footer-bttom-socials">
+                            <img src="./Images/facebook (3) 1.svg" alt="">
+                            <img src="./Images/twitter (5) 1.svg" alt="">
+                            <img src="./Images/linkedin-logo 1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="./Javascript/script.js"></script>
+</body>
+</html>         
