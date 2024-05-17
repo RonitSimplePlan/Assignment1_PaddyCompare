@@ -171,7 +171,7 @@ section{
 }
 .bds-wrap{
     padding: 10px 20px;
-}
+}sec5-wrapper
 .bd-srch{
     border: 1px solid #4d4d4d;
     padding: 10px 10px;
@@ -187,7 +187,9 @@ section{
 /* wrapper start */
 
 /* section1 start */
-
+.hero-wrapper{
+    overflow: hidden;
+}
 .inner-hero-wrapper{
     display: flex;
     justify-content: space-between;
@@ -420,7 +422,9 @@ section{
 /* section 4 end */
 
 /* section 5 start */
-
+.sec5-wrapper{
+    overflow: hidden;
+}
 .inner-sec5-wrapper{
     display: flex;
     justify-content: space-between;
@@ -531,6 +535,7 @@ section{
 .sec7-wrapper{
     background-color: #118657;
     color: #fff;
+    overflow: hidden;
 }
 .inner-sec7-wrapper{
     padding: 80px 0;
@@ -564,6 +569,7 @@ section{
 }
 .sec8-wrapper{
     background-color: #e8f3ef;
+    overflow: hidden;
 }
 .inner-sec8-wrapper{
     display: flex;
